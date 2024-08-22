@@ -3,7 +3,7 @@
         <h1>Products</h1>
         <div class="row">
             <div class="col-md-4 mb-4" v-for="product in products" :key="product.id">
-                <router-link :to="`/productlist/detail/${product.id}`" class="text-decoration-none">
+                <router-link :to="`/productlist/detail?id=${product.id}`" class="text-decoration-none">
                     <div class="card">
                         <img :src="product.image" class="card-img-top" alt="Product image">
                         <div class="card-body">

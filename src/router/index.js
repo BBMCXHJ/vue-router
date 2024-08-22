@@ -7,7 +7,7 @@ import ProductDetail from '@/views/ProductDetail.vue'
 const routes = [
   { path: '/', component: HomeView },
   { path: '/productlist', component: ProductListView },
-  { path: '/productlist/detail/:id', component: ProductDetail },
+  { path: '/productlist/detail', component: ProductDetail },
 ]
 
 const router = createRouter({

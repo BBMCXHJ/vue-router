@@ -12,8 +12,8 @@ export default {
         };
     },
     mounted() {
-        console.log("route.params: ", this.$route.params)
-        this.productId = this.$route.params.id        
+        console.log("route.query: ", this.$route.query)
+        this.productId = this.$route.query.id        
     }
 }
 </script>
