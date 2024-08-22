@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="navbar">
       <RouterLink to="/" class="nav-link">Home</RouterLink>
-      <RouterLink to="/product" class="nav-link">Product</RouterLink>
+      <RouterLink to="/productlist" class="nav-link">Product</RouterLink>
     </nav>
     <main class="content">
       <RouterView />
